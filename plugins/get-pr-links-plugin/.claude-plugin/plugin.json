@@ -1,0 +1,8 @@
+{
+  "name": "get-pr-links-plugin",
+  "description": "Extracts and reorganizes GitHub Pull Request links from runbot freeze HTML into a Google Sheet",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}

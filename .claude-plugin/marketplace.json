@@ -1,0 +1,27 @@
+{
+  "name": "odoo-tech-writer-team-skills",
+  "description": "Claude Code skills maintained by the Odoo technical writing team",
+  "owner": {
+    "name": "Odoo Technical Writing Team"
+  },
+  "plugins": [
+    {
+      "name": "get-pr-links-plugin",
+      "source": "./plugins/get-pr-links-plugin",
+      "description": "Extracts and reorganizes GitHub Pull Request links from runbot freeze HTML, previews them as HTML, then writes Scope and GitHub PR URL to a Google Sheet",
+      "version": "1.0.0"
+    },
+    {
+      "name": "doc-impact-plugin",
+      "source": "./plugins/doc-impact-plugin",
+      "description": "Analyzes a GitHub PR for documentation impact and generates a task title + description for technical writers",
+      "version": "1.0.0"
+    },
+    {
+      "name": "pr-to-task-plugin",
+      "source": "./plugins/pr-to-task-plugin",
+      "description": "Converts GitHub PR links or numbers to Odoo task URLs",
+      "version": "1.0.0"
+    }
+  ]
+}

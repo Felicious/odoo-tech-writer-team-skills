@@ -1,0 +1,8 @@
+{
+  "name": "pr-to-task-plugin",
+  "description": "Converts GitHub PR links or numbers to Odoo task URLs",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "doc-impact-plugin",
+  "description": "Analyzes a GitHub PR for documentation impact and generates a task for technical writers",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}
