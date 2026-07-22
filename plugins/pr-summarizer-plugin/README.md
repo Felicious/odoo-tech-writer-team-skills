@@ -1,4 +1,4 @@
-# pr-to-task-plugin
+# pr-summarizer-plugin
 
 Summarizes code changes to document them in a PR description.
 
@@ -19,6 +19,7 @@ Draft a PR summary for the current branch. The base branch is 17.0. It can be FW
 ```
 
 > **Note**
+>
 > Claude may prompt you for more information or permission to perform some steps. Select **Yes**.
 >
 > To give Claude permission to perform these steps every time for the current Claude session, press **Shift**+**Tab** until the bottom of the screen says **>> auto mode on**.
@@ -28,7 +29,3 @@ Claude will copy the description to your clipboard and open a new PR comparison 
 Paste the output into the PR description field.
 
 To exit Claude and return to a standard Terminal prompt, enter `exit` in the Claude Code window.
-
-```
-/pr-summarizer-plugin:pr-summarizer 
-```

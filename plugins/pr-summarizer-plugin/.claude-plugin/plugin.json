@@ -1,7 +1,7 @@
 {
   "name": "pr-summarizer-plugin",
   "description": "Summarizes code changes to document them in a PR description",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Odoo Technical Writing Team"
   }
