@@ -1,0 +1,7 @@
+{
+     "name": "get-features-plugin",
+     "source": "./plugins/get-features-plugin",
+     "description": "Retrieves all PRs from a user-specified remote branch in odoo/odoo or odoo/enterprise.",
+     "version": "1.0.0"
+}
+
