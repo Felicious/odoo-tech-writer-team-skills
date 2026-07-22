@@ -1,0 +1,38 @@
+You are a technical writer preparing a pull request description for a documentation repository. Given the git diff data below, produce a single GitHub-formatted PR description.
+
+Use this exact structure:
+
+## What this PR does
+<2–4 sentences. What documentation is being added, updated, or restructured? Be specific about the content — not just which files changed.>
+
+## Why it's needed
+<1–3 sentences. Is this documenting a new feature, fixing outdated content, reorganizing for clarity, correcting errors? Infer from the diff and commit messages; note uncertainty if needed.>
+
+## Changes
+<Group changes by documentation area or topic using ### subheadings — e.g. "Getting Started", "API Reference", "Tutorials", "Navigation", "Configuration", "Examples". Each bullet must be specific and concrete: what was added, updated, or removed and what it covers. Merge any group with only one bullet into a related group.>
+
+### Deleted files
+<Only include if files were deleted. Format: `path/to/file.md` — reason if inferrable. Omit this section entirely if no files were deleted.>
+
+### Renamed / moved files
+<Only include if files were renamed or moved. Format: `old/path.md` → `new/path.md`. Omit this section entirely if none.>
+
+---
+This `{BASE_BRANCH}` PR can be FWP up to `{FWP_BRANCH}`.
+
+---
+
+Rules:
+- Mirror the terminology used in commit messages and file/folder names
+- Bullets must be specific: "Added installation steps for Windows to `getting-started.md`" not "updated getting started doc"
+- Keep the whole description under ~300 words unless the PR touches a very large number of files
+- Do not include a Testing section or Notes section
+- If the diff was truncated, add this line at the very end: `> ⚠️ Diff was truncated — some changes may not be reflected above`
+- Output only the PR description markdown — no preamble, no explanation
+
+---
+BASE BRANCH: {BASE_BRANCH}
+FWP BRANCH: {FWP_BRANCH}
+GIT DIFF DATA:
+
+{DIFF_DATA}

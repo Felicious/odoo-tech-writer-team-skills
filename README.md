@@ -22,6 +22,7 @@ A Claude Code plugin marketplace maintained by the Odoo technical writing team.
    /plugin install get-pr-links-plugin@odoo-tech-writer-team-skills
    /plugin install doc-impact-plugin@odoo-tech-writer-team-skills
    /plugin install pr-to-task-plugin@odoo-tech-writer-team-skills
+   /plugin install pr-summarizer-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -34,6 +35,7 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `get-pr-links-plugin` | `/get-pr-links-plugin:get-pr-links-from-freeze-runbot` | Extracts PR links from runbot freeze HTML and writes them to the release notes Google Sheet |
 | `doc-impact-plugin` | `/doc-impact-plugin:doc-impact <pr-url>` | Analyzes a GitHub PR for documentation impact and drafts a task for writers |
 | `pr-to-task-plugin` | `/pr-to-task-plugin:pr-to-task <pr-url-or-number>` | Resolves GitHub PR(s) to their Odoo task URL |
+| `pr-summarizer-plugin` | `/pr-summarizer-plugin:pr-summarizer` | Summarizes code changes to document them in a PR description |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
 

@@ -22,6 +22,12 @@
       "source": "./plugins/pr-to-task-plugin",
       "description": "Converts GitHub PR links or numbers to Odoo task URLs",
       "version": "1.0.0"
+    },
+    {
+      "name": "pr-summarizer-plugin",
+      "source": "./plugins/pr-summarizer-plugin",
+      "description": "Reads changes on a local Git branch and produces a GitHub-ready PR description in markdown — covering what changed, why, and a grouped list of specific changes (including deleted and renamed files).",
+      "version": "1.0.0"
     }
   ]
 }
