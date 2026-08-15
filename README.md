@@ -103,6 +103,7 @@ You should see `.git/info/exclude:<line>:CLAUDE.md.`
    /plugin install doc-impact-plugin@odoo-tech-writer-team-skills
    /plugin install pr-to-task-plugin@odoo-tech-writer-team-skills
    /plugin install pr-summarizer-plugin@odoo-tech-writer-team-skills
+   /plugin install rst-meta-description-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -116,6 +117,7 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `doc-impact-plugin` | `/doc-impact-plugin:doc-impact <pr-url>` | Analyzes a GitHub PR for documentation impact and drafts a task for writers |
 | `pr-to-task-plugin` | `/pr-to-task-plugin:pr-to-task <pr-url-or-number>` | Resolves GitHub PR(s) to their Odoo task URL |
 | `pr-summarizer-plugin` | `/pr-summarizer-plugin:pr-summarizer` | Summarizes code changes to document them in a PR description |
+| `rst-meta-description-plugin` | `/rst-meta-description-plugin:rst-meta-description` | Drafts a meta description for a single .rst file by suggesting highlights, asking user for emphasis, and writing the description into a ..meta:: block based on Odoo's style guidelines |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
 

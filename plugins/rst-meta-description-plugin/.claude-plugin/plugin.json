@@ -1,0 +1,8 @@
+{
+  "name": "rst-meta-description-plugin",
+  "description": "Generates or fixes the LLM-readability meta description for an Odoo RST documentation file",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}
