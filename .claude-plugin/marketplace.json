@@ -28,6 +28,12 @@
       "source": "./plugins/pr-summarizer-plugin",
       "description": "Reads changes on a local Git branch and produces a GitHub-ready PR description in markdown — covering what changed, why, and a grouped list of specific changes (including deleted and renamed files).",
       "version": "1.0.0"
+    },
+    {
+      "name": "rst-meta-description-plugin",
+      "source": "./plugins/rst-meta-description-plugin",
+      "description": "Generates or fixes the LLM-readability meta description for an Odoo RST documentation file",
+      "version": "1.0.0"
     }
   ]
 }
