@@ -104,6 +104,7 @@ You should see `.git/info/exclude:<line>:CLAUDE.md.`
    /plugin install pr-to-task-plugin@odoo-tech-writer-team-skills
    /plugin install pr-summarizer-plugin@odoo-tech-writer-team-skills
    /plugin install rst-meta-description-plugin@odoo-tech-writer-team-skills
+   /plugin install check-redirects-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -118,6 +119,7 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `pr-to-task-plugin` | `/pr-to-task-plugin:pr-to-task <pr-url-or-number>` | Resolves GitHub PR(s) to their Odoo task URL |
 | `pr-summarizer-plugin` | `/pr-summarizer-plugin:pr-summarizer` | Summarizes code changes to document them in a PR description |
 | `rst-meta-description-plugin` | `/rst-meta-description-plugin:rst-meta-description` | Drafts a meta description for a single .rst file by suggesting highlights, asking user for emphasis, and writing the description into a ..meta:: block based on Odoo's style guidelines |
+| `check-redirects-plugin` | `/check-redirects` | Builds the docs, serves them locally, and opens test URLs for redirect rules added or changed in a commit |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
 
