@@ -34,6 +34,12 @@
       "source": "./plugins/rst-meta-description-plugin",
       "description": "Generates or fixes the LLM-readability meta description for an Odoo RST documentation file",
       "version": "1.0.0"
+    },
+    {
+      "name": "check-redirects-plugin",
+      "source": "./plugins/check-redirects-plugin",
+      "description": "Builds the docs, serves them locally, and opens test URLs for redirect rules added or changed in a commit",
+      "version": "1.0.0"
     }
   ]
 }
