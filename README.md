@@ -105,6 +105,7 @@ You should see `.git/info/exclude:<line>:CLAUDE.md.`
    /plugin install pr-summarizer-plugin@odoo-tech-writer-team-skills
    /plugin install rst-meta-description-plugin@odoo-tech-writer-team-skills
    /plugin install check-redirects-plugin@odoo-tech-writer-team-skills
+   /plugin install start-odoo-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -120,6 +121,7 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `pr-summarizer-plugin` | `/pr-summarizer-plugin:pr-summarizer` | Summarizes code changes to document them in a PR description |
 | `rst-meta-description-plugin` | `/rst-meta-description-plugin:rst-meta-description` | Drafts a meta description for a single .rst file by suggesting highlights, asking user for emphasis, and writing the description into a ..meta:: block based on Odoo's style guidelines |
 | `check-redirects-plugin` | `/check-redirects` | Builds the docs, serves them locally, and opens test URLs for redirect rules added or changed in a commit |
+| `start-odoo-plugin` | `/start-odoo [version]` | Starts a local Odoo Enterprise instance with demo data at http://localhost:8069, with the latest code pulled |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
 

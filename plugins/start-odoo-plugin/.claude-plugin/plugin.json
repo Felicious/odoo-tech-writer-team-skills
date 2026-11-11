@@ -1,0 +1,8 @@
+{
+  "name": "start-odoo-plugin",
+  "description": "Starts a local Odoo Enterprise instance with demo data at http://localhost:8069, with the latest code pulled",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}
