@@ -1,0 +1,8 @@
+{
+  "name": "tutorial-audit-sheet-plugin",
+  "description": "Tutorial audit phase 2: turns a dated tutorial list into a Google Sheet that finds duplicates, sets versions and priorities, marks videos to archive, and starts a Tutorials to Update tab",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}

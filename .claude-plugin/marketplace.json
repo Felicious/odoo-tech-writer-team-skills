@@ -46,6 +46,18 @@
       "source": "./plugins/start-odoo-plugin",
       "description": "Starts a local Odoo Enterprise instance with demo data at http://localhost:8069, pulling the latest code and falling back to the Run Odoo locally guide if a step fails",
       "version": "1.0.0"
+    },
+    {
+      "name": "audit-odoo-tutorials-plugin",
+      "source": "./plugins/audit-odoo-tutorials-plugin",
+      "description": "Tutorial audit phase 1: lists an app's Odoo Tutorials videos oldest-first by publication date, copies the list, and writes it to a Google Doc tab (one tab per app)",
+      "version": "1.0.0"
+    },
+    {
+      "name": "tutorial-audit-sheet-plugin",
+      "source": "./plugins/tutorial-audit-sheet-plugin",
+      "description": "Tutorial audit phase 2: turns a dated tutorial list into a Google Sheet that finds duplicates, sets versions and priorities, marks videos to archive, and starts a Tutorials to Update tab",
+      "version": "1.0.0"
     }
   ]
 }
