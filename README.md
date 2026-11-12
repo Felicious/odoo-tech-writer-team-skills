@@ -106,6 +106,8 @@ You should see `.git/info/exclude:<line>:CLAUDE.md.`
    /plugin install rst-meta-description-plugin@odoo-tech-writer-team-skills
    /plugin install check-redirects-plugin@odoo-tech-writer-team-skills
    /plugin install start-odoo-plugin@odoo-tech-writer-team-skills
+   /plugin install audit-odoo-tutorials-plugin@odoo-tech-writer-team-skills
+   /plugin install tutorial-audit-sheet-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -122,8 +124,12 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `rst-meta-description-plugin` | `/rst-meta-description-plugin:rst-meta-description` | Drafts a meta description for a single .rst file by suggesting highlights, asking user for emphasis, and writing the description into a ..meta:: block based on Odoo's style guidelines |
 | `check-redirects-plugin` | `/check-redirects` | Builds the docs, serves them locally, and opens test URLs for redirect rules added or changed in a commit |
 | `start-odoo-plugin` | `/start-odoo [version]` | Starts a local Odoo Enterprise instance with demo data at http://localhost:8069, with the latest code pulled |
+| `audit-odoo-tutorials-plugin` | `/audit-odoo-tutorials <app> [google-doc-url]` | Tutorial audit phase 1: lists an app's Odoo Tutorials videos by publication date and writes them to a Google Doc tab (one tab per app) |
+| `tutorial-audit-sheet-plugin` | `/tutorial-audit-sheet` | Tutorial audit phase 2: turns the phase 1 list into a Google Sheet that finds duplicates and sets priorities. Needs `gws` |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
+
+The two tutorial audit plugins work together: run `audit-odoo-tutorials` first, then `tutorial-audit-sheet` on its output. See the [tutorial audit workflow](plugins/audit-odoo-tutorials-plugin/README.md#tutorial-audit-workflow), including [how to set up `gws`](plugins/tutorial-audit-sheet-plugin/README.md#set-up-gws).
 
 ### Updating
 
