@@ -58,6 +58,12 @@
       "source": "./plugins/tutorial-audit-sheet-plugin",
       "description": "Tutorial audit phase 2: turns a dated tutorial list into a Google Sheet that finds duplicates, sets versions and priorities, marks videos to archive, and starts a Tutorials to Update tab",
       "version": "1.0.0"
+    },
+    {
+      "name": "get-features-plugin",
+      "source": "./plugins/get-features-plugin",
+      "description": "Retrieves all PRs from a user-specified remote branch in odoo/odoo or odoo/enterprise, maps them to associated Odoo Project Task IDs, and identify those with doc impact.",
+      "version": "1.0.0"
     }
   ]
 }
