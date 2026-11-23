@@ -108,6 +108,7 @@ You should see `.git/info/exclude:<line>:CLAUDE.md.`
    /plugin install start-odoo-plugin@odoo-tech-writer-team-skills
    /plugin install audit-odoo-tutorials-plugin@odoo-tech-writer-team-skills
    /plugin install tutorial-audit-sheet-plugin@odoo-tech-writer-team-skills
+   /plugin install doc-quality-review-plugin@odoo-tech-writer-team-skills
    /reload-plugins
    ```
 
@@ -126,6 +127,7 @@ Because the marketplace is added from your local clone, `git pull` in that direc
 | `start-odoo-plugin` | `/start-odoo [version]` | Starts a local Odoo Enterprise instance with demo data at http://localhost:8069, with the latest code pulled |
 | `audit-odoo-tutorials-plugin` | `/audit-odoo-tutorials <app> [google-doc-url]` | Tutorial audit phase 1: lists an app's Odoo Tutorials videos by publication date and writes them to a Google Doc tab (one tab per app) |
 | `tutorial-audit-sheet-plugin` | `/tutorial-audit-sheet` | Tutorial audit phase 2: turns the phase 1 list into a Google Sheet that finds duplicates and sets priorities. Needs `gws` |
+| `doc-quality-review-plugin` | `/doc-quality-review-plugin:doc-quality-review <files> [--branch] [--browser [url]]` | Reviews docs pages for accuracy against the odoo/enterprise source and for style against the US or Not US rules, and proposes numbered fixes. The check in a running Odoo instance is opt-in (`--browser`) |
 
 See each plugin's own `README.md` under `plugins/<name>/` for details.
 

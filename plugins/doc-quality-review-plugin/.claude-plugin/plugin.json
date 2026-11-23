@@ -1,0 +1,8 @@
+{
+  "name": "doc-quality-review-plugin",
+  "description": "Reviews Odoo documentation for accuracy against the odoo/odoo and odoo/enterprise source and for style against the US or Not US rules, with an opt-in check in a running Odoo instance",
+  "version": "1.0.0",
+  "author": {
+    "name": "Odoo Technical Writing Team"
+  }
+}
